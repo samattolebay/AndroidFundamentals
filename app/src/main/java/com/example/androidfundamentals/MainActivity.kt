@@ -21,5 +21,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
         }
+
+        btnNineLesson.setOnClickListener {
+            Intent(this, NineActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 }

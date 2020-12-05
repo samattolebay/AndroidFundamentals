@@ -7,4 +7,7 @@
     <string name="apply">Apply</string>
     <string name="lesson_5_name"><![CDATA[5. Layout Basics & Linear Layout]]></string>
     <string name="lesson_7_name">7. Chains and guidelines</string>
+    <string name="add_one">+1</string>
+    <string name="let_s_count_together">Let\'s count together: 0</string>
+    <string name="lesson_9_name">9. TextViews</string>
 </resources>
