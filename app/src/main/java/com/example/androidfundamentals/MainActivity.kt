@@ -10,8 +10,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btnFive.setOnClickListener {
+        btnFiveLesson.setOnClickListener {
             Intent(this, FiveActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnSevenLesson.setOnClickListener {
+            Intent(this, SevenActivity::class.java).also {
                 startActivity(it)
             }
         }
