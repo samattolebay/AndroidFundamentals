@@ -27,5 +27,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
         }
+
+        btnTenLesson.setOnClickListener {
+            Intent(this, TenActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 }

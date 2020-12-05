@@ -10,4 +10,9 @@
     <string name="add_one">+1</string>
     <string name="let_s_count_together">Let\'s count together: 0</string>
     <string name="lesson_9_name">9. TextViews</string>
+    <string name="first_number">First Number</string>
+    <string name="second_number">Second Number</string>
+    <string name="result">Result</string>
+    <string name="add">Add</string>
+    <string name="lesson_10_name">10. EditTexts</string>
 </resources>
