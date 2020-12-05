@@ -15,4 +15,6 @@
     <string name="result">Result</string>
     <string name="add">Add</string>
     <string name="lesson_10_name">10. EditTexts</string>
+    <string name="lesson_11_name">11. ImageViews</string>
+    <string name="add_image">Add Image</string>
 </resources>

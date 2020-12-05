@@ -33,5 +33,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
         }
+
+        btnElevenLesson.setOnClickListener {
+            Intent(this, ElevenActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 }
