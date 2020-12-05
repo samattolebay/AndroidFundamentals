@@ -5,12 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnFive"
+        android:id="@+id/btnFiveLesson"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lesson_5_name" />
+
+    <Button
+        android:id="@+id/btnSevenLesson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lesson_7_name" />
 
 </LinearLayout>

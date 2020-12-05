@@ -6,4 +6,5 @@
     <string name="country">Country</string>
     <string name="apply">Apply</string>
     <string name="lesson_5_name"><![CDATA[5. Layout Basics & Linear Layout]]></string>
+    <string name="lesson_7_name">7. Chains and guidelines</string>
 </resources>
