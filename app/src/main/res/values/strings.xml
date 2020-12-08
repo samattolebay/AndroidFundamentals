@@ -17,4 +17,13 @@
     <string name="lesson_10_name">10. EditTexts</string>
     <string name="lesson_11_name">11. ImageViews</string>
     <string name="add_image">Add Image</string>
+    <string name="order">Order</string>
+    <string name="onions">Onions</string>
+    <string name="pork">Pork</string>
+    <string name="chicken">Chicken</string>
+    <string name="beef">Beef</string>
+    <string name="salad">Salad</string>
+    <string name="cheese">Cheese</string>
+    <string name="what_do_you_want_on_your_burger">What do you want on your burger?</string>
+    <string name="lesson_12_name">12. CheckBox and RadioButton</string>
 </resources>
