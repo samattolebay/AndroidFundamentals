@@ -36,5 +36,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/lesson_11_name" />
+    <Button
+        android:id="@+id/btnTwelveLesson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lesson_12_name" />
 
 </LinearLayout>
