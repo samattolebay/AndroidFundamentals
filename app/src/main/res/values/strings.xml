@@ -26,4 +26,8 @@
     <string name="cheese">Cheese</string>
     <string name="what_do_you_want_on_your_burger">What do you want on your burger?</string>
     <string name="lesson_12_name">12. CheckBox and RadioButton</string>
+    <string name="lesson_13_name">13. Toasts and Context</string>
+    <string name="default_toast">Default Toast</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="this_is_a_custom_toast">This is a custom toast!</string>
 </resources>
