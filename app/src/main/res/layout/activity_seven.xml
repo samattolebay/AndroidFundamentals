@@ -44,7 +44,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etFirstName" />
 
     <EditText
-        android:id="@+id/etCountry"
+        android:id="@+id/etCountryClass"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="@string/country"
@@ -62,7 +62,7 @@
         android:text="@string/apply"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/etCountry"
+        app:layout_constraintStart_toEndOf="@+id/etCountryClass"
         app:layout_constraintTop_toBottomOf="@+id/etBirthDate" />
 
     <TextView
@@ -73,7 +73,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCountry"
+        app:layout_constraintTop_toBottomOf="@+id/etCountryClass"
         tools:text="Samat Tolebay born in 05.10.2001 living in Kazakhstan" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

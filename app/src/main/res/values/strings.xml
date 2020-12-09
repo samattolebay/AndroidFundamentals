@@ -37,4 +37,6 @@
     <string name="lesson_15_name">15. Passing Data Between Activities</string>
     <string name="name">Name</string>
     <string name="age">Age</string>
+    <string name="this_person_will_be_passed_by_the_class">This person\'s info will be passed by the class</string>
+    <string name="this_person_will_be_passed_separately">This person\'s info will be passes separately</string>
 </resources>

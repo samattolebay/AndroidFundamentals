@@ -13,7 +13,7 @@ class SevenActivity : AppCompatActivity() {
             val firstName = etFirstName.text.toString()
             val lastName = etLastName.text.toString()
             val birthDate = etBirthDate.text.toString()
-            val country = etCountry.text.toString()
+            val country = etCountryClass.text.toString()
             val info = "$firstName $lastName was born in $birthDate and lives in $country"
             tvInfo.text = info
         }

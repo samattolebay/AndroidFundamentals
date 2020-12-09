@@ -1,8 +1,9 @@
-package com.example.androidfundamentals
+package com.example.androidfundamentals.fourteen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.androidfundamentals.R
 import kotlinx.android.synthetic.main.activity_fourteen.*
 
 class FourteenActivity : AppCompatActivity() {

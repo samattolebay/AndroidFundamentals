@@ -5,39 +5,89 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".FifteenActivity">
+    tools:context=".fifteen.FifteenActivity">
+
+    <TextView
+        android:id="@+id/tvSeparate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_person_will_be_passed_separately"
+        android:textSize="30sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="28dp" />
 
     <EditText
-        android:id="@+id/etName"
+        android:id="@+id/etNameSeparate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:importantForAutofill="no"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSeparate" />
 
     <EditText
-        android:id="@+id/etAge"
+        android:id="@+id/etAgeSeparate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/age"
-        app:layout_constraintTop_toBottomOf="@+id/etName"
-        tools:layout_editor_absoluteX="33dp"
         android:importantForAutofill="no"
-        android:inputType="number" />
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/etNameSeparate"
+        tools:layout_editor_absoluteX="33dp" />
 
     <EditText
-        android:id="@+id/etCountry"
+        android:id="@+id/etCountrySeparate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/country"
-        app:layout_constraintTop_toBottomOf="@+id/etAge"
-        tools:layout_editor_absoluteX="42dp"
         android:importantForAutofill="no"
-        android:inputType="textPostalAddress" />
+        android:inputType="textPostalAddress"
+        app:layout_constraintTop_toBottomOf="@+id/etAgeSeparate"
+        tools:layout_editor_absoluteX="42dp" />
+
+    <TextView
+        android:id="@+id/tvClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_person_will_be_passed_by_the_class"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/etCountrySeparate"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <EditText
+        android:id="@+id/etNameClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvClass" />
+
+    <EditText
+        android:id="@+id/etAgeClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/age"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/etNameClass"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <EditText
+        android:id="@+id/etCountryClass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/country"
+        android:importantForAutofill="no"
+        android:inputType="textPostalAddress"
+        app:layout_constraintTop_toBottomOf="@+id/etAgeClass"
+        tools:layout_editor_absoluteX="42dp" />
 
     <Button
         android:id="@+id/btnApply"
@@ -45,5 +95,5 @@
         android:layout_height="wrap_content"
         android:text="@string/apply"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etCountry" />
+        app:layout_constraintTop_toBottomOf="@+id/etCountryClass" />
 </androidx.constraintlayout.widget.ConstraintLayout>

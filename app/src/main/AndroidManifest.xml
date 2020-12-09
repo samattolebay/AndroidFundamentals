@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Fifteen2Activity"></activity>
-        <activity android:name=".FifteenActivity" />
-        <activity android:name=".Fourteen2Activity" />
-        <activity android:name=".FourteenActivity" />
+        <activity android:name=".fifteen.Fifteen2Activity"></activity>
+        <activity android:name=".fifteen.FifteenActivity" />
+        <activity android:name=".fourteen.Fourteen2Activity" />
+        <activity android:name=".fourteen.FourteenActivity" />
         <activity android:name=".ThirteenActivity" />
         <activity android:name=".TwelveActivity" />
         <activity android:name=".ElevenActivity" />
