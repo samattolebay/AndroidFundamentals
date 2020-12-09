@@ -34,4 +34,7 @@
     <string name="next">Next</string>
     <string name="hey_this_is_the_second_activity">Hey, this is the second activity!</string>
     <string name="back">Back</string>
+    <string name="lesson_15_name">15. Passing Data Between Activities</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
 </resources>
