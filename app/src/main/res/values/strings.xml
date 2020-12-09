@@ -30,4 +30,8 @@
     <string name="default_toast">Default Toast</string>
     <string name="custom_toast">Custom Toast</string>
     <string name="this_is_a_custom_toast">This is a custom toast!</string>
+    <string name="lesson_14_name">14. Intents and Starting Activities</string>
+    <string name="next">Next</string>
+    <string name="hey_this_is_the_second_activity">Hey, this is the second activity!</string>
+    <string name="back">Back</string>
 </resources>

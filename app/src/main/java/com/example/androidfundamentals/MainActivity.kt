@@ -51,5 +51,11 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
         }
+
+        btnFourteenLesson.setOnClickListener {
+            Intent(this, FourteenActivity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 }
