@@ -1,8 +1,9 @@
-package com.example.androidfundamentals
+package com.example.androidfundamentals.thirteen
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.androidfundamentals.R
 import kotlinx.android.synthetic.main.activity_thirteen.*
 import kotlinx.android.synthetic.main.custom_toast.*
 

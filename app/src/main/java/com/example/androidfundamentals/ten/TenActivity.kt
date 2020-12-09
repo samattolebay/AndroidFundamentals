@@ -1,7 +1,8 @@
-package com.example.androidfundamentals
+package com.example.androidfundamentals.ten
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.androidfundamentals.R
 import kotlinx.android.synthetic.main.activity_ten.*
 
 class TenActivity : AppCompatActivity() {
@@ -9,7 +10,7 @@ class TenActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ten)
 
-        btnAdd.setOnClickListener() {
+        btnAdd.setOnClickListener {
             val text1 = etFirstNumber.text.toString()
             val firstNumber = if (text1.isEmpty()) 0 else text1.toInt()
             val text2 = etSecondNumber.text.toString()

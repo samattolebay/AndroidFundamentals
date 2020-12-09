@@ -3,8 +3,15 @@ package com.example.androidfundamentals
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.androidfundamentals.eleven.ElevenActivity
 import com.example.androidfundamentals.fifteen.FifteenActivity
+import com.example.androidfundamentals.five.FiveActivity
 import com.example.androidfundamentals.fourteen.FourteenActivity
+import com.example.androidfundamentals.nine.NineActivity
+import com.example.androidfundamentals.seven.SevenActivity
+import com.example.androidfundamentals.ten.TenActivity
+import com.example.androidfundamentals.thirteen.ThirteenActivity
+import com.example.androidfundamentals.twelve.TwelveActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

@@ -1,7 +1,8 @@
-package com.example.androidfundamentals
+package com.example.androidfundamentals.five
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.androidfundamentals.R
 import kotlinx.android.synthetic.main.activity_five.*
 
 class FiveActivity : AppCompatActivity() {

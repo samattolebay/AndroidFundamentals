@@ -1,8 +1,9 @@
-package com.example.androidfundamentals
+package com.example.androidfundamentals.twelve
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.RadioButton
+import com.example.androidfundamentals.R
 import kotlinx.android.synthetic.main.activity_twelve.*
 
 class TwelveActivity : AppCompatActivity() {

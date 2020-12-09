@@ -13,13 +13,13 @@
         <activity android:name=".fifteen.FifteenActivity" />
         <activity android:name=".fourteen.Fourteen2Activity" />
         <activity android:name=".fourteen.FourteenActivity" />
-        <activity android:name=".ThirteenActivity" />
-        <activity android:name=".TwelveActivity" />
-        <activity android:name=".ElevenActivity" />
-        <activity android:name=".TenActivity" />
-        <activity android:name=".NineActivity" />
-        <activity android:name=".SevenActivity" />
-        <activity android:name=".FiveActivity" />
+        <activity android:name=".thirteen.ThirteenActivity" />
+        <activity android:name=".twelve.TwelveActivity" />
+        <activity android:name=".eleven.ElevenActivity" />
+        <activity android:name=".ten.TenActivity" />
+        <activity android:name=".nine.NineActivity" />
+        <activity android:name=".seven.SevenActivity" />
+        <activity android:name=".five.FiveActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
