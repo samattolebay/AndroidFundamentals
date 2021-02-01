@@ -9,6 +9,7 @@ import com.example.androidfundamentals.five.FiveActivity
 import com.example.androidfundamentals.fourteen.FourteenActivity
 import com.example.androidfundamentals.nine.NineActivity
 import com.example.androidfundamentals.seven.SevenActivity
+import com.example.androidfundamentals.sixteen.SixteenActivity
 import com.example.androidfundamentals.ten.TenActivity
 import com.example.androidfundamentals.thirteen.ThirteenActivity
 import com.example.androidfundamentals.twelve.TwelveActivity
@@ -69,6 +70,12 @@ class MainActivity : AppCompatActivity() {
 
         btnFifteenLesson.setOnClickListener {
             Intent(this, FifteenActivity::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnSixteenLesson.setOnClickListener {
+            Intent(this, SixteenActivity::class.java).also {
                 startActivity(it)
             }
         }

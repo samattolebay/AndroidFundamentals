@@ -39,4 +39,6 @@
     <string name="age">Age</string>
     <string name="this_person_will_be_passed_by_the_class">This person\'s info will be passed by the class</string>
     <string name="this_person_will_be_passed_separately">This person\'s info will be passes separately</string>
+    <string name="request_permissions">Request Permissions</string>
+    <string name="lesson_16_name">16. Permissions</string>
 </resources>
